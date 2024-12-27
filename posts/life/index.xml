@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>人生 on Huahai&#39;s Blog</title>
-    <link>https://sunhuahai.github.io/posts/life/</link>
+    <link>http://localhost:1313/posts/life/</link>
     <description>Recent content in 人生 on Huahai&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 Dec 2024 16:53:48 +0800</lastBuildDate>
-    <atom:link href="https://sunhuahai.github.io/posts/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>整理四象限</title>
-      <link>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
+      <link>http://localhost:1313/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:48 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
+      <guid>http://localhost:1313/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
       <description>&lt;h1 id=&#34;月刊整理四象限&#34;&gt;月刊：整理四象限&lt;/h1&gt;
 &lt;p&gt;在博客中看到了这个整理办法之后花了大概一天时间把我的知识管理软件obsidian和zotero都转换为了这种分类方法，感觉清爽多了。&lt;/p&gt;
 &lt;p&gt;然后看到其他博客都有月刊，感觉是一个总结自己的每个月生活的好方式，而且其他人有的我的博客也要有！&lt;/p&gt;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>信息茧房</title>
-      <link>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
+      <link>http://localhost:1313/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:41 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
+      <guid>http://localhost:1313/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
       <description>&lt;p&gt;今天看了几篇宣传雄狮少年2的通稿，感觉如鲠在喉，不吐不快。&lt;/p&gt;
 &lt;p&gt;最开始听说雄狮少年2的时候是因为知乎上的一些回答，基本一边倒的在批判电影上面人物的造型。因为知乎容易出现一边倒的风向，当时并没有在意，也不至于因此对该电影有太多恶感。&lt;/p&gt;
 &lt;p&gt;今天偶然发现一个我很喜欢的答主在强烈推荐雄狮少年2，忍不住又去看了一下这个问题。&lt;/p&gt;
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>我的装备</title>
-      <link>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
+      <link>http://localhost:1313/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:37 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
+      <guid>http://localhost:1313/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
       <description>&lt;p&gt;好久没有梳理一下自己手头在用的东西了，读博之后生活方式变了不少，身边的设备也发生了很大的变化，现在感觉是时候梳理下自己手头的设备，写一篇 Tech I use everyday。&lt;/p&gt;
 &lt;h3 id=&#34;生产力工具&#34;&gt;生产力工具&lt;/h3&gt;
 &lt;h4 id=&#34;macbook-pro-14-m3-芯片版本&#34;&gt;MacBook Pro 14‘ M3 芯片版本&lt;/h4&gt;
@@ -80,9 +80,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>顺其自然</title>
-      <link>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
+      <link>http://localhost:1313/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:29 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
+      <guid>http://localhost:1313/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
       <description>&lt;p&gt;今天不知为啥浑无斗志，感觉整个人都十分累，强撑着身体去了工位—毕竟上午已经没去了，下午再不过去未免过于不像话。&lt;/p&gt;
 &lt;p&gt;到了工位照例泡完咖啡（顺便说一句，今天把第三杯117瓶子倒完之后我的抽屉里就有三个空瓶和一个没开封的了，把一瓶喝完的时候总是有种莫名的畅快感）。然后打开 follow 看看和菜头更新了没（有时间去查一下和菜头这名字有什么来历，总感觉跟菜根谭有点联系）。&lt;/p&gt;
 &lt;p&gt;发现更新了一篇文章【知识分子式失恋】，文章中的内容是讲失恋后如何走出来的：先顺其自然，该咋痛苦就咋痛苦，然后情感高峰过去了再思考后面的事情。&lt;/p&gt;

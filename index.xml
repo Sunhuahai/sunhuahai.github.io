@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Huahai&#39;s Blog</title>
-    <link>https://sunhuahai.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Huahai&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 Dec 2024 16:54:25 +0800</lastBuildDate>
-    <atom:link href="https://sunhuahai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vim</title>
-      <link>https://sunhuahai.github.io/posts/tech/vim/</link>
+      <link>http://localhost:1313/posts/tech/vim/</link>
       <pubDate>Fri, 27 Dec 2024 16:54:25 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/tech/vim/</guid>
+      <guid>http://localhost:1313/posts/tech/vim/</guid>
       <description>&lt;h3 id=&#34;vim编辑器使用总结&#34;&gt;Vim编辑器使用总结&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>Linux</title>
-      <link>https://sunhuahai.github.io/posts/tech/linux/</link>
+      <link>http://localhost:1313/posts/tech/linux/</link>
       <pubDate>Fri, 27 Dec 2024 16:54:21 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/tech/linux/</guid>
+      <guid>http://localhost:1313/posts/tech/linux/</guid>
       <description>&lt;h3 id=&#34;linux命令总结&#34;&gt;Linux命令总结&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -139,9 +139,9 @@
     </item>
     <item>
       <title>最后生还者</title>
-      <link>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
+      <link>http://localhost:1313/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
       <pubDate>Fri, 27 Dec 2024 16:54:08 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
+      <guid>http://localhost:1313/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
       <description>&lt;p&gt;最后生还者 第二章作为最后生还者 第一章的续作，自公布以来就引起了巨大的关注，前作无与伦比的口碑自然让人们对这部续作充满了期待。&lt;/p&gt;
 &lt;p&gt;发售后，本作争议性的剧情也引起了人们对制作组的声讨，我这里无意去评判公众的反应（至少是中国公众）是否正确，只能说对我自己而言，最后生还者2的剧情十分精彩且深刻。&lt;/p&gt;
 &lt;p&gt;从最后生还者2的幕后纪录片中我们可以知道，游戏剧情的核心概念就是暴力的轮回：暴力引起更大的暴力，复仇引起新一轮的复仇。&lt;/p&gt;
@@ -150,9 +150,9 @@
     </item>
     <item>
       <title>整理四象限</title>
-      <link>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
+      <link>http://localhost:1313/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:48 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
+      <guid>http://localhost:1313/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
       <description>&lt;h1 id=&#34;月刊整理四象限&#34;&gt;月刊：整理四象限&lt;/h1&gt;
 &lt;p&gt;在博客中看到了这个整理办法之后花了大概一天时间把我的知识管理软件obsidian和zotero都转换为了这种分类方法，感觉清爽多了。&lt;/p&gt;
 &lt;p&gt;然后看到其他博客都有月刊，感觉是一个总结自己的每个月生活的好方式，而且其他人有的我的博客也要有！&lt;/p&gt;
@@ -167,9 +167,9 @@
     </item>
     <item>
       <title>信息茧房</title>
-      <link>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
+      <link>http://localhost:1313/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:41 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
+      <guid>http://localhost:1313/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
       <description>&lt;p&gt;今天看了几篇宣传雄狮少年2的通稿，感觉如鲠在喉，不吐不快。&lt;/p&gt;
 &lt;p&gt;最开始听说雄狮少年2的时候是因为知乎上的一些回答，基本一边倒的在批判电影上面人物的造型。因为知乎容易出现一边倒的风向，当时并没有在意，也不至于因此对该电影有太多恶感。&lt;/p&gt;
 &lt;p&gt;今天偶然发现一个我很喜欢的答主在强烈推荐雄狮少年2，忍不住又去看了一下这个问题。&lt;/p&gt;
@@ -182,9 +182,9 @@
     </item>
     <item>
       <title>我的装备</title>
-      <link>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
+      <link>http://localhost:1313/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:37 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
+      <guid>http://localhost:1313/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
       <description>&lt;p&gt;好久没有梳理一下自己手头在用的东西了，读博之后生活方式变了不少，身边的设备也发生了很大的变化，现在感觉是时候梳理下自己手头的设备，写一篇 Tech I use everyday。&lt;/p&gt;
 &lt;h3 id=&#34;生产力工具&#34;&gt;生产力工具&lt;/h3&gt;
 &lt;h4 id=&#34;macbook-pro-14-m3-芯片版本&#34;&gt;MacBook Pro 14‘ M3 芯片版本&lt;/h4&gt;
@@ -220,9 +220,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>顺其自然</title>
-      <link>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
+      <link>http://localhost:1313/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
       <pubDate>Fri, 27 Dec 2024 16:53:29 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
+      <guid>http://localhost:1313/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
       <description>&lt;p&gt;今天不知为啥浑无斗志，感觉整个人都十分累，强撑着身体去了工位—毕竟上午已经没去了，下午再不过去未免过于不像话。&lt;/p&gt;
 &lt;p&gt;到了工位照例泡完咖啡（顺便说一句，今天把第三杯117瓶子倒完之后我的抽屉里就有三个空瓶和一个没开封的了，把一瓶喝完的时候总是有种莫名的畅快感）。然后打开 follow 看看和菜头更新了没（有时间去查一下和菜头这名字有什么来历，总感觉跟菜根谭有点联系）。&lt;/p&gt;
 &lt;p&gt;发现更新了一篇文章【知识分子式失恋】，文章中的内容是讲失恋后如何走出来的：先顺其自然，该咋痛苦就咋痛苦，然后情感高峰过去了再思考后面的事情。&lt;/p&gt;
@@ -234,9 +234,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>控方证人</title>
-      <link>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
+      <link>http://localhost:1313/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
       <pubDate>Fri, 27 Dec 2024 16:52:55 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
+      <guid>http://localhost:1313/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
       <description>&lt;p&gt;观前提醒：本文不建议在观看前阅读，任何剧透都会降低你观影的体验！！！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;反转反转再反转&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;刚看完了控方证人，为了防止自己的第一感觉收到评论干扰，赶紧来写了观后感。&lt;/p&gt;
@@ -251,9 +251,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>饥饿的大脑</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
+      <link>http://localhost:1313/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
       <pubDate>Fri, 27 Dec 2024 16:52:45 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;《饥饿的大脑》探讨了“稀缺循环”现象，解释了人们为何会对社交媒体、赌博等上瘾，并指出这种机制既能激励生产力也能导致目标的简化和伦理问题。书中强调了技术在改变动机的同时也改变了我们的追求方向，提醒我们要有驾驭这些技巧的智慧。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -268,9 +268,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>黑神话悟空</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
+      <link>http://localhost:1313/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
       <pubDate>Fri, 27 Dec 2024 15:04:08 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
       <description>&lt;p&gt;《黑神话·悟空》无疑是我今年最喜爱的国产游戏。曾几何时，国产3A游戏还被许多人视为遥不可及的梦想，而如今，《黑神话·悟空》终于将这一梦想变为了现实。&lt;/p&gt;
 &lt;p&gt;目前我已经全成就通关，因此可以更为理性地分析这款游戏的优缺点。&lt;/p&gt;
 &lt;p&gt;首先要谈的是它的优点，首当其冲的自然是出色的画质。尽管我对画质要求不高，且游戏是在PS5这类性能相对有限的平台上运行，然而一进入游戏，广阔而瑰丽的画面依然让我为之震撼。与《战神》系列宏伟的北欧建筑风格不同，《黑神话·悟空》展现的是中国名山大川和黄沙雪原的自然之美。在虚幻5引擎（UE5）的加持下，游戏建模的精度极高，整体呈现出一种仿佛身临其境的奇妙感受。&lt;/p&gt;
@@ -280,9 +280,9 @@ Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型�
     </item>
     <item>
       <title>食南之徒</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
+      <link>http://localhost:1313/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
       <pubDate>Fri, 27 Dec 2024 15:02:16 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
       <description>&lt;p&gt;为了省电订阅费，也为了督促自己多多阅读，前段时间参加了微信读书30天阅读挑战赛，要求是30天内阅读29天且总阅读时长在29小时以上——平均一天一小时。&lt;/p&gt;
 &lt;p&gt;对于喜欢阅读的人而言，29小时并不算困难，唯一需要注意一下的是中间不要有中断，否则29天即达不成了。&lt;/p&gt;
 &lt;p&gt;因此这段时间每天都会打开微信读书读一会，但由于最近事情繁多，比较忙碌，一不留神挑战已近结束——却还差十几个小时没有阅读，没办法，为了我的五块钱不打水漂，只能在剩下的五天内加班阅读。&lt;/p&gt;

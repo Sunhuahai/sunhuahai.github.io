@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>读书 on Huahai&#39;s Blog</title>
-    <link>https://sunhuahai.github.io/posts/read/</link>
+    <link>http://localhost:1313/posts/read/</link>
     <description>Recent content in 读书 on Huahai&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 Dec 2024 16:54:08 +0800</lastBuildDate>
-    <atom:link href="https://sunhuahai.github.io/posts/read/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最后生还者</title>
-      <link>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
+      <link>http://localhost:1313/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
       <pubDate>Fri, 27 Dec 2024 16:54:08 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
+      <guid>http://localhost:1313/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
       <description>&lt;p&gt;最后生还者 第二章作为最后生还者 第一章的续作，自公布以来就引起了巨大的关注，前作无与伦比的口碑自然让人们对这部续作充满了期待。&lt;/p&gt;
 &lt;p&gt;发售后，本作争议性的剧情也引起了人们对制作组的声讨，我这里无意去评判公众的反应（至少是中国公众）是否正确，只能说对我自己而言，最后生还者2的剧情十分精彩且深刻。&lt;/p&gt;
 &lt;p&gt;从最后生还者2的幕后纪录片中我们可以知道，游戏剧情的核心概念就是暴力的轮回：暴力引起更大的暴力，复仇引起新一轮的复仇。&lt;/p&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>控方证人</title>
-      <link>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
+      <link>http://localhost:1313/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
       <pubDate>Fri, 27 Dec 2024 16:52:55 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
+      <guid>http://localhost:1313/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
       <description>&lt;p&gt;观前提醒：本文不建议在观看前阅读，任何剧透都会降低你观影的体验！！！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;反转反转再反转&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;刚看完了控方证人，为了防止自己的第一感觉收到评论干扰，赶紧来写了观后感。&lt;/p&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>饥饿的大脑</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
+      <link>http://localhost:1313/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
       <pubDate>Fri, 27 Dec 2024 16:52:45 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;《饥饿的大脑》探讨了“稀缺循环”现象，解释了人们为何会对社交媒体、赌博等上瘾，并指出这种机制既能激励生产力也能导致目标的简化和伦理问题。书中强调了技术在改变动机的同时也改变了我们的追求方向，提醒我们要有驾驭这些技巧的智慧。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -55,9 +55,9 @@
     </item>
     <item>
       <title>黑神话悟空</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
+      <link>http://localhost:1313/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
       <pubDate>Fri, 27 Dec 2024 15:04:08 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
       <description>&lt;p&gt;《黑神话·悟空》无疑是我今年最喜爱的国产游戏。曾几何时，国产3A游戏还被许多人视为遥不可及的梦想，而如今，《黑神话·悟空》终于将这一梦想变为了现实。&lt;/p&gt;
 &lt;p&gt;目前我已经全成就通关，因此可以更为理性地分析这款游戏的优缺点。&lt;/p&gt;
 &lt;p&gt;首先要谈的是它的优点，首当其冲的自然是出色的画质。尽管我对画质要求不高，且游戏是在PS5这类性能相对有限的平台上运行，然而一进入游戏，广阔而瑰丽的画面依然让我为之震撼。与《战神》系列宏伟的北欧建筑风格不同，《黑神话·悟空》展现的是中国名山大川和黄沙雪原的自然之美。在虚幻5引擎（UE5）的加持下，游戏建模的精度极高，整体呈现出一种仿佛身临其境的奇妙感受。&lt;/p&gt;
@@ -67,9 +67,9 @@
     </item>
     <item>
       <title>食南之徒</title>
-      <link>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
+      <link>http://localhost:1313/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
       <pubDate>Fri, 27 Dec 2024 15:02:16 +0800</pubDate>
-      <guid>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
+      <guid>http://localhost:1313/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
       <description>&lt;p&gt;为了省电订阅费，也为了督促自己多多阅读，前段时间参加了微信读书30天阅读挑战赛，要求是30天内阅读29天且总阅读时长在29小时以上——平均一天一小时。&lt;/p&gt;
 &lt;p&gt;对于喜欢阅读的人而言，29小时并不算困难，唯一需要注意一下的是中间不要有中断，否则29天即达不成了。&lt;/p&gt;
 &lt;p&gt;因此这段时间每天都会打开微信读书读一会，但由于最近事情繁多，比较忙碌，一不留神挑战已近结束——却还差十几个小时没有阅读，没办法，为了我的五块钱不打水漂，只能在剩下的五天内加班阅读。&lt;/p&gt;

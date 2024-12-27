@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>科技 on Huahai&#39;s Blog</title>
+    <link>http://localhost:1313/en/posts/tech/</link>
+    <description>Recent content in 科技 on Huahai&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2024 16:54:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/en/posts/tech/vim/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:25 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/tech/vim/</guid>
+      <description>&lt;h3 id=&#34;vim编辑器使用总结&#34;&gt;Vim编辑器使用总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;进入Vim&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vi &amp;lt;文件名&amp;gt;&lt;/code&gt;：打开或创建文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;两种模式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;编辑模式&lt;/strong&gt;：按&lt;code&gt;i&lt;/code&gt;进入，&lt;code&gt;Esc&lt;/code&gt;退出&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命令模式&lt;/strong&gt;：用于执行保存、搜索等命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;基本操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:w&lt;/code&gt;：保存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q&lt;/code&gt;：退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:wq&lt;/code&gt;：保存并退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:set nu&lt;/code&gt;：显示行号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳到文件开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shift + g&lt;/code&gt;：跳到文件结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令模式下常用操作&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/en/posts/tech/linux/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:21 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/tech/linux/</guid>
+      <description>&lt;h3 id=&#34;linux命令总结&#34;&gt;Linux命令总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令格式&lt;/strong&gt;：&lt;br&gt;
+&lt;code&gt;命令 + &amp;lt;选项&amp;gt; + 目标文件或目录&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt;：根目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&lt;/code&gt;：当前目录 (执行命令如&lt;code&gt;./a.out&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~/&lt;/code&gt;：用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目录操作&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

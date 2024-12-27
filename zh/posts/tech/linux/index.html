@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Linux | Huahai&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Linux命令总结
+
+
+命令格式：
+命令 &#43; &lt;选项&gt; &#43; 目标文件或目录
+
+/：根目录
+./：当前目录 (执行命令如./a.out)
+~/：用户目录
+
+
+
+目录操作：">
+<meta name="author" content="Huahai">
+<link rel="canonical" href="https://sunhuahai.github.io/zh/posts/tech/linux/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://sunhuahai.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sunhuahai.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sunhuahai.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://sunhuahai.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://sunhuahai.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://sunhuahai.github.io/zh/posts/tech/linux/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://sunhuahai.github.io/zh/posts/tech/linux/">
+  <meta property="og:site_name" content="Huahai&#39;s Blog">
+  <meta property="og:title" content="Linux">
+  <meta property="og:description" content="Linux命令总结 命令格式：
+命令 &#43; &lt;选项&gt; &#43; 目标文件或目录
+/：根目录 ./：当前目录 (执行命令如./a.out) ~/：用户目录 目录操作：">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-27T16:54:21+08:00">
+    <meta property="article:modified_time" content="2024-12-27T16:54:21+08:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux">
+<meta name="twitter:description" content="Linux命令总结
+
+
+命令格式：
+命令 &#43; &lt;选项&gt; &#43; 目标文件或目录
+
+/：根目录
+./：当前目录 (执行命令如./a.out)
+~/：用户目录
+
+
+
+目录操作：">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "",
+      "item": "https://sunhuahai.github.io/zh/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "科技",
+      "item": "https://sunhuahai.github.io/zh/posts/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Linux",
+      "item": "https://sunhuahai.github.io/zh/posts/tech/linux/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Linux",
+  "name": "Linux",
+  "description": "Linux命令总结 命令格式：\n命令 + \u0026lt;选项\u0026gt; + 目标文件或目录\n/：根目录 ./：当前目录 (执行命令如./a.out) ~/：用户目录 目录操作：\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Linux命令总结 命令格式：\n命令 + \u003c选项\u003e + 目标文件或目录\n/：根目录 ./：当前目录 (执行命令如./a.out) ~/：用户目录 目录操作：\nls：列出目录下所有文件 ls -al：显示详细信息和隐藏文件 cd \u003c目录\u003e：进入指定目录 cd ..：返回上级目录 cd ~：返回用户目录 pwd：显示当前目录路径 mkdir \u003c目录名\u003e：创建子目录 rmdir \u003c目录名\u003e：删除子目录 文件操作：\ntouch \u003c文件名\u003e：创建文件 cp \u003c源文件\u003e \u003c目标文件\u003e：复制文件 mv \u003c源文件\u003e \u003c目标文件\u003e：移动文件或重命名 rm \u003c文件名\u003e：删除文件 rm -rf \u003c目录\u003e：强制递归删除 文件显示：\ncat \u003c文件名\u003e：显示文件内容 more \u003c文件名\u003e：分页显示文件 head/tail -n \u003c行数\u003e \u003c文件名\u003e：显示文件头部/尾部若干行 其他命令：\nln -s \u003c源文件\u003e \u003c链接名\u003e：创建符号链接 diff \u003c文件1\u003e \u003c文件2\u003e：比较文件 chmod +x \u003c文件名\u003e：更改文件权限 grep \u003c模式\u003e \u003c文件\u003e：文本搜索 find \u003c路径\u003e -name \u003c文件名\u003e：查找文件 压缩与解压：\ntar cvf \u003c包名\u003e.tar \u003c目录\u003e：打包 tar xvf \u003c包名\u003e.tar：解包 gzip \u003c文件\u003e：压缩 gunzip \u003c文件.gz\u003e：解压 管道与重定向：\n\u003e：重定向输出到文件 ls -l \u003e out.txt |：管道符 ls | grep \u003c模式\u003e \u003e\u003e：追加输出到文件 系统操作：\necho \u003c变量\u003e：显示变量值 ps：查看活跃进程 kill \u003c进程ID\u003e：终止进程 history：查看历史命令 du -h \u003c目录\u003e：查看目录占用空间 网络操作：\nssh \u003c用户\u003e@\u003c主机\u003e：登录远程主机 scp \u003c源文件\u003e \u003c用户\u003e@\u003c主机\u003e:\u003c目录\u003e：复制文件到远程 rsync：同步文件 ",
+  "wordCount" : "846",
+  "inLanguage": "zh",
+  "datePublished": "2024-12-27T16:54:21+08:00",
+  "dateModified": "2024-12-27T16:54:21+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Huahai"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunhuahai.github.io/zh/posts/tech/linux/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Huahai's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sunhuahai.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://sunhuahai.github.io/zh/" accesskey="h" title="Huahai&#39;s Blog (Alt + H)">Huahai&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://sunhuahai.github.io/zh/search" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sunhuahai.github.io/zh/" title="主页">
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sunhuahai.github.io/zh/posts" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sunhuahai.github.io/zh/about" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Linux
+    </h1>
+    <div class="post-meta"><span title='2024-12-27 16:54:21 +0800 CST'>2024-12-27</span>&nbsp;·&nbsp;Huahai
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#linux%e5%91%bd%e4%bb%a4%e6%80%bb%e7%bb%93" aria-label="Linux命令总结">Linux命令总结</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h3 id="linux命令总结">Linux命令总结<a hidden class="anchor" aria-hidden="true" href="#linux命令总结">#</a></h3>
+<ol>
+<li>
+<p><strong>命令格式</strong>：<br>
+<code>命令 + &lt;选项&gt; + 目标文件或目录</code></p>
+<ul>
+<li><code>/</code>：根目录</li>
+<li><code>./</code>：当前目录 (执行命令如<code>./a.out</code>)</li>
+<li><code>~/</code>：用户目录</li>
+</ul>
+</li>
+<li>
+<p><strong>目录操作</strong>：</p>
+<ul>
+<li><code>ls</code>：列出目录下所有文件
+<ul>
+<li><code>ls -al</code>：显示详细信息和隐藏文件</li>
+</ul>
+</li>
+<li><code>cd &lt;目录&gt;</code>：进入指定目录
+<ul>
+<li><code>cd ..</code>：返回上级目录</li>
+<li><code>cd ~</code>：返回用户目录</li>
+</ul>
+</li>
+<li><code>pwd</code>：显示当前目录路径</li>
+<li><code>mkdir &lt;目录名&gt;</code>：创建子目录</li>
+<li><code>rmdir &lt;目录名&gt;</code>：删除子目录</li>
+</ul>
+</li>
+<li>
+<p><strong>文件操作</strong>：</p>
+<ul>
+<li><code>touch &lt;文件名&gt;</code>：创建文件</li>
+<li><code>cp &lt;源文件&gt; &lt;目标文件&gt;</code>：复制文件</li>
+<li><code>mv &lt;源文件&gt; &lt;目标文件&gt;</code>：移动文件或重命名</li>
+<li><code>rm &lt;文件名&gt;</code>：删除文件
+<ul>
+<li><code>rm -rf &lt;目录&gt;</code>：强制递归删除</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>文件显示</strong>：</p>
+<ul>
+<li><code>cat &lt;文件名&gt;</code>：显示文件内容</li>
+<li><code>more &lt;文件名&gt;</code>：分页显示文件</li>
+<li><code>head/tail -n &lt;行数&gt; &lt;文件名&gt;</code>：显示文件头部/尾部若干行</li>
+</ul>
+</li>
+<li>
+<p><strong>其他命令</strong>：</p>
+<ul>
+<li><code>ln -s &lt;源文件&gt; &lt;链接名&gt;</code>：创建符号链接</li>
+<li><code>diff &lt;文件1&gt; &lt;文件2&gt;</code>：比较文件</li>
+<li><code>chmod +x &lt;文件名&gt;</code>：更改文件权限</li>
+<li><code>grep &lt;模式&gt; &lt;文件&gt;</code>：文本搜索</li>
+<li><code>find &lt;路径&gt; -name &lt;文件名&gt;</code>：查找文件</li>
+</ul>
+</li>
+<li>
+<p><strong>压缩与解压</strong>：</p>
+<ul>
+<li><code>tar cvf &lt;包名&gt;.tar &lt;目录&gt;</code>：打包</li>
+<li><code>tar xvf &lt;包名&gt;.tar</code>：解包</li>
+<li><code>gzip &lt;文件&gt;</code>：压缩</li>
+<li><code>gunzip &lt;文件.gz&gt;</code>：解压</li>
+</ul>
+</li>
+<li>
+<p><strong>管道与重定向</strong>：</p>
+<ul>
+<li><code>&gt;</code>：重定向输出到文件
+<ul>
+<li><code>ls -l &gt; out.txt</code></li>
+</ul>
+</li>
+<li><code>|</code>：管道符
+<ul>
+<li><code>ls | grep &lt;模式&gt;</code></li>
+</ul>
+</li>
+<li><code>&gt;&gt;</code>：追加输出到文件</li>
+</ul>
+</li>
+<li>
+<p><strong>系统操作</strong>：</p>
+<ul>
+<li><code>echo &lt;变量&gt;</code>：显示变量值</li>
+<li><code>ps</code>：查看活跃进程</li>
+<li><code>kill &lt;进程ID&gt;</code>：终止进程</li>
+<li><code>history</code>：查看历史命令</li>
+<li><code>du -h &lt;目录&gt;</code>：查看目录占用空间</li>
+</ul>
+</li>
+<li>
+<p><strong>网络操作</strong>：</p>
+<ul>
+<li><code>ssh &lt;用户&gt;@&lt;主机&gt;</code>：登录远程主机</li>
+<li><code>scp &lt;源文件&gt; &lt;用户&gt;@&lt;主机&gt;:&lt;目录&gt;</code>：复制文件到远程</li>
+<li><code>rsync</code>：同步文件</li>
+</ul>
+</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://sunhuahai.github.io/zh/posts/tech/vim/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>Vim</span>
+  </a>
+  <a class="next" href="https://sunhuahai.github.io/zh/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>最后生还者</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://sunhuahai.github.io/zh/">Huahai&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

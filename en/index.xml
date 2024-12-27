@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Huahai&#39;s Blog</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Huahai&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2024 16:54:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/en/posts/tech/vim/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:25 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/tech/vim/</guid>
+      <description>&lt;h3 id=&#34;vim编辑器使用总结&#34;&gt;Vim编辑器使用总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;进入Vim&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vi &amp;lt;文件名&amp;gt;&lt;/code&gt;：打开或创建文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;两种模式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;编辑模式&lt;/strong&gt;：按&lt;code&gt;i&lt;/code&gt;进入，&lt;code&gt;Esc&lt;/code&gt;退出&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命令模式&lt;/strong&gt;：用于执行保存、搜索等命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;基本操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:w&lt;/code&gt;：保存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q&lt;/code&gt;：退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:wq&lt;/code&gt;：保存并退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:set nu&lt;/code&gt;：显示行号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳到文件开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shift + g&lt;/code&gt;：跳到文件结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令模式下常用操作&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/en/posts/tech/linux/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:21 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/tech/linux/</guid>
+      <description>&lt;h3 id=&#34;linux命令总结&#34;&gt;Linux命令总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令格式&lt;/strong&gt;：&lt;br&gt;
+&lt;code&gt;命令 + &amp;lt;选项&amp;gt; + 目标文件或目录&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt;：根目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&lt;/code&gt;：当前目录 (执行命令如&lt;code&gt;./a.out&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~/&lt;/code&gt;：用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目录操作&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最后生还者</title>
+      <link>http://localhost:1313/en/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:08 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
+      <description>&lt;p&gt;最后生还者 第二章作为最后生还者 第一章的续作，自公布以来就引起了巨大的关注，前作无与伦比的口碑自然让人们对这部续作充满了期待。&lt;/p&gt;
+&lt;p&gt;发售后，本作争议性的剧情也引起了人们对制作组的声讨，我这里无意去评判公众的反应（至少是中国公众）是否正确，只能说对我自己而言，最后生还者2的剧情十分精彩且深刻。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>整理四象限</title>
+      <link>http://localhost:1313/en/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:48 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
+      <description>&lt;h1 id=&#34;月刊整理四象限&#34;&gt;月刊：整理四象限&lt;/h1&gt;
+&lt;p&gt;在博客中看到了这个整理办法之后花了大概一天时间把我的知识管理软件obsidian和zotero都转换为了这种分类方法，感觉清爽多了。&lt;/p&gt;
+&lt;p&gt;然后看到其他博客都有月刊，感觉是一个总结自己的每个月生活的好方式，而且其他人有的我的博客也要有！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>信息茧房</title>
+      <link>http://localhost:1313/en/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:41 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
+      <description>&lt;p&gt;今天看了几篇宣传雄狮少年2的通稿，感觉如鲠在喉，不吐不快。&lt;/p&gt;
+&lt;p&gt;最开始听说雄狮少年2的时候是因为知乎上的一些回答，基本一边倒的在批判电影上面人物的造型。因为知乎容易出现一边倒的风向，当时并没有在意，也不至于因此对该电影有太多恶感。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的装备</title>
+      <link>http://localhost:1313/en/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:37 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
+      <description>&lt;p&gt;好久没有梳理一下自己手头在用的东西了，读博之后生活方式变了不少，身边的设备也发生了很大的变化，现在感觉是时候梳理下自己手头的设备，写一篇 Tech I use everyday。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>顺其自然</title>
+      <link>http://localhost:1313/en/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:29 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
+      <description>&lt;p&gt;今天不知为啥浑无斗志，感觉整个人都十分累，强撑着身体去了工位—毕竟上午已经没去了，下午再不过去未免过于不像话。&lt;/p&gt;
+&lt;p&gt;到了工位照例泡完咖啡（顺便说一句，今天把第三杯117瓶子倒完之后我的抽屉里就有三个空瓶和一个没开封的了，把一瓶喝完的时候总是有种莫名的畅快感）。然后打开 follow 看看和菜头更新了没（有时间去查一下和菜头这名字有什么来历，总感觉跟菜根谭有点联系）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>控方证人</title>
+      <link>http://localhost:1313/en/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
+      <pubDate>Fri, 27 Dec 2024 16:52:55 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
+      <description>&lt;p&gt;观前提醒：本文不建议在观看前阅读，任何剧透都会降低你观影的体验！！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;反转反转再反转&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;刚看完了控方证人，为了防止自己的第一感觉收到评论干扰，赶紧来写了观后感。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>饥饿的大脑</title>
+      <link>http://localhost:1313/en/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
+      <pubDate>Fri, 27 Dec 2024 16:52:45 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;《饥饿的大脑》探讨了“稀缺循环”现象，解释了人们为何会对社交媒体、赌博等上瘾，并指出这种机制既能激励生产力也能导致目标的简化和伦理问题。书中强调了技术在改变动机的同时也改变了我们的追求方向，提醒我们要有驾驭这些技巧的智慧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>黑神话悟空</title>
+      <link>http://localhost:1313/en/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
+      <pubDate>Fri, 27 Dec 2024 15:04:08 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
+      <description>&lt;p&gt;《黑神话·悟空》无疑是我今年最喜爱的国产游戏。曾几何时，国产3A游戏还被许多人视为遥不可及的梦想，而如今，《黑神话·悟空》终于将这一梦想变为了现实。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>食南之徒</title>
+      <link>http://localhost:1313/en/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
+      <pubDate>Fri, 27 Dec 2024 15:02:16 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
+      <description>&lt;p&gt;为了省电订阅费，也为了督促自己多多阅读，前段时间参加了微信读书30天阅读挑战赛，要求是30天内阅读29天且总阅读时长在29小时以上——平均一天一小时。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
