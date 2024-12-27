@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Huahai&#39;s Blog</title>
+    <link>https://sunhuahai.github.io/</link>
+    <description>Recent content on Huahai&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 27 Dec 2024 16:54:25 +0800</lastBuildDate>
+    <atom:link href="https://sunhuahai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>https://sunhuahai.github.io/posts/tech/vim/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:25 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/tech/vim/</guid>
+      <description>&lt;h3 id=&#34;vim编辑器使用总结&#34;&gt;Vim编辑器使用总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;进入Vim&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vi &amp;lt;文件名&amp;gt;&lt;/code&gt;：打开或创建文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;两种模式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;编辑模式&lt;/strong&gt;：按&lt;code&gt;i&lt;/code&gt;进入，&lt;code&gt;Esc&lt;/code&gt;退出&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命令模式&lt;/strong&gt;：用于执行保存、搜索等命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;基本操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:w&lt;/code&gt;：保存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q&lt;/code&gt;：退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:wq&lt;/code&gt;：保存并退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:set nu&lt;/code&gt;：显示行号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳到文件开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shift + g&lt;/code&gt;：跳到文件结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令模式下常用操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/word&lt;/code&gt;：搜索文本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:n1,n2s/word1/word2/g&lt;/code&gt;：在第n1到n2行替换word1为word2&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;：删除字符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yy&lt;/code&gt;：复制行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;p&lt;/code&gt;：粘贴&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dd&lt;/code&gt;：删除行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;编辑脚本&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chmod +x &amp;lt;脚本&amp;gt;&lt;/code&gt;：赋予可执行权限&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&amp;lt;脚本名&amp;gt;&lt;/code&gt;：执行脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://sunhuahai.github.io/posts/tech/linux/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:21 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/tech/linux/</guid>
+      <description>&lt;h3 id=&#34;linux命令总结&#34;&gt;Linux命令总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令格式&lt;/strong&gt;：&lt;br&gt;
+&lt;code&gt;命令 + &amp;lt;选项&amp;gt; + 目标文件或目录&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt;：根目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&lt;/code&gt;：当前目录 (执行命令如&lt;code&gt;./a.out&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~/&lt;/code&gt;：用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目录操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;：列出目录下所有文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls -al&lt;/code&gt;：显示详细信息和隐藏文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;目录&amp;gt;&lt;/code&gt;：进入指定目录
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt;：返回上级目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~&lt;/code&gt;：返回用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt;：显示当前目录路径&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;目录名&amp;gt;&lt;/code&gt;：创建子目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmdir &amp;lt;目录名&amp;gt;&lt;/code&gt;：删除子目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;文件操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;touch &amp;lt;文件名&amp;gt;&lt;/code&gt;：创建文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp &amp;lt;源文件&amp;gt; &amp;lt;目标文件&amp;gt;&lt;/code&gt;：复制文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv &amp;lt;源文件&amp;gt; &amp;lt;目标文件&amp;gt;&lt;/code&gt;：移动文件或重命名&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm &amp;lt;文件名&amp;gt;&lt;/code&gt;：删除文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rm -rf &amp;lt;目录&amp;gt;&lt;/code&gt;：强制递归删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;文件显示&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cat &amp;lt;文件名&amp;gt;&lt;/code&gt;：显示文件内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;more &amp;lt;文件名&amp;gt;&lt;/code&gt;：分页显示文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;head/tail -n &amp;lt;行数&amp;gt; &amp;lt;文件名&amp;gt;&lt;/code&gt;：显示文件头部/尾部若干行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;其他命令&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ln -s &amp;lt;源文件&amp;gt; &amp;lt;链接名&amp;gt;&lt;/code&gt;：创建符号链接&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;diff &amp;lt;文件1&amp;gt; &amp;lt;文件2&amp;gt;&lt;/code&gt;：比较文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chmod +x &amp;lt;文件名&amp;gt;&lt;/code&gt;：更改文件权限&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grep &amp;lt;模式&amp;gt; &amp;lt;文件&amp;gt;&lt;/code&gt;：文本搜索&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find &amp;lt;路径&amp;gt; -name &amp;lt;文件名&amp;gt;&lt;/code&gt;：查找文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;压缩与解压&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tar cvf &amp;lt;包名&amp;gt;.tar &amp;lt;目录&amp;gt;&lt;/code&gt;：打包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tar xvf &amp;lt;包名&amp;gt;.tar&lt;/code&gt;：解包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gzip &amp;lt;文件&amp;gt;&lt;/code&gt;：压缩&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gunzip &amp;lt;文件.gz&amp;gt;&lt;/code&gt;：解压&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;管道与重定向&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最后生还者</title>
+      <link>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:08 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/read/%E6%9C%80%E5%90%8E%E7%94%9F%E8%BF%98%E8%80%85/</guid>
+      <description>&lt;p&gt;最后生还者 第二章作为最后生还者 第一章的续作，自公布以来就引起了巨大的关注，前作无与伦比的口碑自然让人们对这部续作充满了期待。&lt;/p&gt;
+&lt;p&gt;发售后，本作争议性的剧情也引起了人们对制作组的声讨，我这里无意去评判公众的反应（至少是中国公众）是否正确，只能说对我自己而言，最后生还者2的剧情十分精彩且深刻。&lt;/p&gt;
+&lt;p&gt;从最后生还者2的幕后纪录片中我们可以知道，游戏剧情的核心概念就是暴力的轮回：暴力引起更大的暴力，复仇引起新一轮的复仇。&lt;/p&gt;
+&lt;p&gt;暴力真的能解决问题吗？艾莉为了给乔尔报仇踏上复仇之路，却因为复仇的过程中杀死了埃比的朋友引来了埃比新一轮的复仇，最后两人都遍体鳞伤，变成了孤家寡人。&lt;/p&gt;
+&lt;p&gt;这一切值得吗？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>整理四象限</title>
+      <link>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:48 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/life/%E6%95%B4%E7%90%86%E5%9B%9B%E8%B1%A1%E9%99%90/</guid>
+      <description>&lt;h1 id=&#34;月刊整理四象限&#34;&gt;月刊：整理四象限&lt;/h1&gt;
+&lt;p&gt;在博客中看到了这个整理办法之后花了大概一天时间把我的知识管理软件obsidian和zotero都转换为了这种分类方法，感觉清爽多了。&lt;/p&gt;
+&lt;p&gt;然后看到其他博客都有月刊，感觉是一个总结自己的每个月生活的好方式，而且其他人有的我的博客也要有！&lt;/p&gt;
+&lt;p&gt;虽然现在是11月份了，但是还是决定从11月开始，毕竟12月还没有完全过完嘛～&lt;/p&gt;
+&lt;h2 id=&#34;本月书影音&#34;&gt;📖本月书影音&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在读：科学 | 《Playing with reality》 (作者) | ★★★★☆&lt;/li&gt;
+&lt;li&gt;在读：小说 | 《卡拉马佐夫兄弟》 (陀思妥耶夫斯基) | ★★★★★&lt;/li&gt;
+&lt;li&gt;在看：动漫 | 《鬼灭之刃》 | ★★★★★&lt;/li&gt;
+&lt;li&gt;重温：剧集 | 《老友记》 | ★★★★★&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>信息茧房</title>
+      <link>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:41 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/life/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</guid>
+      <description>&lt;p&gt;今天看了几篇宣传雄狮少年2的通稿，感觉如鲠在喉，不吐不快。&lt;/p&gt;
+&lt;p&gt;最开始听说雄狮少年2的时候是因为知乎上的一些回答，基本一边倒的在批判电影上面人物的造型。因为知乎容易出现一边倒的风向，当时并没有在意，也不至于因此对该电影有太多恶感。&lt;/p&gt;
+&lt;p&gt;今天偶然发现一个我很喜欢的答主在强烈推荐雄狮少年2，忍不住又去看了一下这个问题。&lt;/p&gt;
+&lt;p&gt;应该说无论是批判派还是推荐派都很不理性，批判派自不必说，想想就知道那些丑到吓人的图不可能是电影的常态。很多时候无非是先射箭后画靶子的伎俩罢了。&lt;/p&gt;
+&lt;p&gt;至于推荐派，也是今天想重点评述的部分。&lt;/p&gt;
+&lt;p&gt;本身在批判派偏激的情况下，更应该理性讨论，平和的表达自己的意见，这样才能让路人更多的偏向自己一方。&lt;/p&gt;
+&lt;p&gt;但大多数推荐的文章写法用词都让人感觉在刻意煽动矛盾，动辄给人确诊心理疾病，动辄让人慢慢来，彷佛自己是高高在上的神，你们这些所有不听我神谕的人都是偏激的，无知的，易被煽动的。&lt;/p&gt;
+&lt;p&gt;这种高高在上的语气比直接的辱骂更能激起人的愤怒与对抗心理，因为无端贬损人的人格在任何情况下都是不可饶恕的重罪，人家一定和你不死不休。&lt;/p&gt;
+&lt;p&gt;诚恳建议，如果你是自来水，请不要用这种方法。如果你是通稿，那爱咋地咋地，不耽误你赚钱就行。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的装备</title>
+      <link>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:37 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/life/%E6%88%91%E7%9A%84%E8%A3%85%E5%A4%87/</guid>
+      <description>&lt;p&gt;好久没有梳理一下自己手头在用的东西了，读博之后生活方式变了不少，身边的设备也发生了很大的变化，现在感觉是时候梳理下自己手头的设备，写一篇 Tech I use everyday。&lt;/p&gt;
+&lt;h3 id=&#34;生产力工具&#34;&gt;生产力工具&lt;/h3&gt;
+&lt;h4 id=&#34;macbook-pro-14-m3-芯片版本&#34;&gt;MacBook Pro 14‘ M3 芯片版本&lt;/h4&gt;
+&lt;p&gt;Mac 可能是我一系列设备中最重要的一部。
+作为一部当年花了一万六千块钱入手的设备，一年时间的使用下来，无论是颜值屏幕还是性能便携性都让我十分满意。
+非常好的屏幕素质让我在一年中我每次用它写代码，都倍感幸福。macOS 在大多数时候都可以提供一个稳定流畅的体验，让我可以专心在我的工作上。
+Mac 统一内存的架构也允许我用它来尝试各种新奇的语言模型和图片生成模型，也算是在这个 AI 的大潮中让我不至于跟不上时代的步伐。&lt;/p&gt;
+&lt;h4 id=&#34;显示器&#34;&gt;显示器&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;redmi 27’ 4K 显示器，从陪我在宿舍玩游戏到在工位写代码，一直很稳定（前段时间有黑屏现象换了根线就好了），十分感谢&lt;/li&gt;
+&lt;li&gt;三星 27‘ 2K 显示器，作为副屏也完全够用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;娱乐设备&#34;&gt;娱乐设备&lt;/h3&gt;
+&lt;h4 id=&#34;nintendo-switch-splatoon3-限定版&#34;&gt;Nintendo Switch (splatoon3 限定版)&lt;/h4&gt;
+&lt;p&gt;Switch作为我的第一个游戏主机当年是因为塞尔达旷野之息入坑的，不过后来我在他玩的最久的游戏还是天下第一的喷喷，所以喷3限定版主机推出之后忍了好久还是在2024年心痒难耐果断入手了，个人认为是switch限定机中最好看的颜色了。
+感谢这些年你带给我的快乐～&lt;/p&gt;
+&lt;h4 id=&#34;ps5&#34;&gt;PS5&lt;/h4&gt;
+&lt;p&gt;从小机器人到最后生还者再到黑神话悟空，ps5在我这里很好的履行了一台游戏主机应该提供的一切东西：开箱即用的体验，稳定流畅的系统，精致q弹的动画。作为一个强迫症人士，在 pc 上玩游戏总给我一种粗糙的感觉，就好像用一个缝缝补补的轮船渡海一样，虽然不是不行，有时候还因为吨位比较大真正渡海的体验会更好，可因为每次都要检修以及过于繁琐的操作流程而失去了踏实感和流畅感。
+目前在玩&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原神&lt;/li&gt;
+&lt;li&gt;暗黑破坏神 4&lt;/li&gt;
+&lt;li&gt;黑神话悟空&lt;/li&gt;
+&lt;li&gt;艾尔登法环&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;matepad-115s&#34;&gt;matepad 11.5s&lt;/h4&gt;
+&lt;p&gt;这个设备本想归为生产力工具，奈何实在是不太好意思：买来之后除了吃灰大部分时间都用来看视频或者玩游戏了，实在是有愧生产力之名&lt;/p&gt;
+&lt;p&gt;目前没什么念想，主要是在等鸿蒙 next 更新，把它当作体验鸿蒙的设备来玩一玩。&lt;/p&gt;
+&lt;h4 id=&#34;显示器-1&#34;&gt;显示器&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;泰坦军团27‘ 4K miniled，从redmi换到了带有高刷和 HDR 的显示设备大幅度的提高了我 ps5 的使用体验&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>顺其自然</title>
+      <link>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</link>
+      <pubDate>Fri, 27 Dec 2024 16:53:29 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/life/%E9%A1%BA%E5%85%B6%E8%87%AA%E7%84%B6/</guid>
+      <description>&lt;p&gt;今天不知为啥浑无斗志，感觉整个人都十分累，强撑着身体去了工位—毕竟上午已经没去了，下午再不过去未免过于不像话。&lt;/p&gt;
+&lt;p&gt;到了工位照例泡完咖啡（顺便说一句，今天把第三杯117瓶子倒完之后我的抽屉里就有三个空瓶和一个没开封的了，把一瓶喝完的时候总是有种莫名的畅快感）。然后打开 follow 看看和菜头更新了没（有时间去查一下和菜头这名字有什么来历，总感觉跟菜根谭有点联系）。&lt;/p&gt;
+&lt;p&gt;发现更新了一篇文章【知识分子式失恋】，文章中的内容是讲失恋后如何走出来的：先顺其自然，该咋痛苦就咋痛苦，然后情感高峰过去了再思考后面的事情。&lt;/p&gt;
+&lt;p&gt;上面都没什么，让我感到有趣并忍不住写这篇博客的原因是这样一句话：
+【感冒的奥义就是无论怎么折腾，吃这药，喝那汤，都需要七天才能痊愈。什么都不用，直挺挺地硬扛，痊愈则需要耗时长达一周。】&lt;/p&gt;
+&lt;p&gt;看到之后忍不住会心一笑，感觉疲惫也减轻了不少。&lt;/p&gt;
+&lt;p&gt;于是深感创造趣味，发现趣味真是这个忙碌又充满压力的现代社会中生存所需要的能力。&lt;/p&gt;
+&lt;p&gt;这也是我一直在坚持写博客的原因，有时候你自己的一点灵光一闪发在网上就可以为不知道多远的陌生人带来一些趣味，幸何如哉～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>控方证人</title>
+      <link>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</link>
+      <pubDate>Fri, 27 Dec 2024 16:52:55 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/read/%E6%8E%A7%E6%96%B9%E8%AF%81%E4%BA%BA/</guid>
+      <description>&lt;p&gt;观前提醒：本文不建议在观看前阅读，任何剧透都会降低你观影的体验！！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;反转反转再反转&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;刚看完了控方证人，为了防止自己的第一感觉收到评论干扰，赶紧来写了观后感。&lt;/p&gt;
+&lt;p&gt;首先需要承认，控方证人作为一部悬疑片，其最后的大反转无疑令人震撼，但我认为这部电影最可贵的是，即便在最终的多次大反转的震撼之前，控方证人就已经为我们提供一场80多分钟的愉快的观影体验。&lt;/p&gt;
+&lt;p&gt;坦白讲，作为一部20世纪的黑白电影，控方证人在画面或者特效方面完全没有任何优势，而且通篇流程也没有震撼人心的大场面，整个过程中也就出现了四五个室内场景。并且充斥着大片大片的英语独白，语速快且口音严重。&lt;/p&gt;
+&lt;p&gt;但他就是能让你沉浸进去，并时不时会心一笑。无论是老爵士（抱歉，我在记人名方面一向不太擅长）与护士的毒舌还是在童心未泯的与升降机玩耍， 都能让观众的心中不由自主的浮现出喜悦，这是很难得的，也很见导演的功力。&lt;/p&gt;
+&lt;p&gt;第二个耀眼的闪光点自然就是影片最后八分钟的反转了，事实上，第一次反转影片中有过不少暗示，包括老爵士自己的怀疑，观众实际上是容易察觉到不对劲的。&lt;/p&gt;
+&lt;p&gt;但在这个基础上第二次反转—被判无罪的被告真的是凶手就不是那么容易想到了，这带给观众的震撼自然更为强大。&lt;/p&gt;
+&lt;p&gt;至于第三次反转—被告还是一个出轨甘愿为自己坐牢的妻子的人渣，就是让观众也感到怒不可遏了。这也为结局妻子“处决”了这个负心汉铺垫好了理由。&lt;/p&gt;
+&lt;p&gt;第三个闪光点就是对妻子—克里斯汀的刻画了，她的冷静的理性与炽烈的爱交相辉映，展示了一个陷入热恋的女性的自我牺牲以及爱人背叛后的果断。&lt;/p&gt;
+&lt;p&gt;还有若干细节只能等一段时间我再看第二遍第三遍的时候逐步补充了，到时如果有新的感悟就可以在写一篇博客了～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>饥饿的大脑</title>
+      <link>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</link>
+      <pubDate>Fri, 27 Dec 2024 16:52:45 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/read/%E9%A5%A5%E9%A5%BF%E7%9A%84%E5%A4%A7%E8%84%91/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;《饥饿的大脑》探讨了“稀缺循环”现象，解释了人们为何会对社交媒体、赌博等上瘾，并指出这种机制既能激励生产力也能导致目标的简化和伦理问题。书中强调了技术在改变动机的同时也改变了我们的追求方向，提醒我们要有驾驭这些技巧的智慧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大约两三天之前，我再follow上面看到和菜头的博客推荐了一本书：饥饿大脑，博文中和菜头给予了这本书高度的评价，感觉有点好奇，遂拿来看看。&lt;/p&gt;
+&lt;p&gt;惭愧的是，本书目前还没有读完，但既然想写便先写了，否则万一读完之后反而失去了写作的欲望，岂不冤哉？&lt;/p&gt;
+&lt;p&gt;本书的核心观点就是稀缺循环：机会-不可预测的奖励-快速重复，人们之所以会对某些事情上瘾就是因为这些事情通过某种方式给了人们这种循环：&lt;/p&gt;
+&lt;p&gt;你发布到社交媒体的每一个帖子都是一次机会，不可预测的奖励则是点赞和评论，很快你就可以再发一个帖子，重复这个过程，也难怪这么多人会对社交媒体着迷。&lt;/p&gt;
+&lt;p&gt;所谓的稀缺循环说白了是个很简单的结构，但却意外的精辟，生活中的诸多现象都可以通过这个循环来解释：小丑牌的爆火，人们为什么会沉迷于赌博……&lt;/p&gt;
+&lt;p&gt;这个循环可以用来造福人类，也就是所谓的游戏化。外卖公司通过给予骑手随机的奖励来激励他们工作更多小时，软件通过锻炼后的随机奖励来激励人们更多的锻炼。不谈背后的伦理问题，这其实是一个蛮好的技巧-既提高了生产力，又不会让人感到无聊。&lt;/p&gt;
+&lt;p&gt;只不过就像是书中提到的，游戏化在改变了我们动机的同时也不可避免的一定程度上修改了我们的目标，本来用来激励我们的东西忽然间变成了唯一的追求，丰富深刻的现实浓缩成了一个个简单的数字，难免舍本逐末。&lt;/p&gt;
+&lt;p&gt;技巧无所谓好坏，只看人类是否有驾驭他的智慧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>黑神话悟空</title>
+      <link>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</link>
+      <pubDate>Fri, 27 Dec 2024 15:04:08 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/read/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/</guid>
+      <description>&lt;p&gt;《黑神话·悟空》无疑是我今年最喜爱的国产游戏。曾几何时，国产3A游戏还被许多人视为遥不可及的梦想，而如今，《黑神话·悟空》终于将这一梦想变为了现实。&lt;/p&gt;
+&lt;p&gt;目前我已经全成就通关，因此可以更为理性地分析这款游戏的优缺点。&lt;/p&gt;
+&lt;p&gt;首先要谈的是它的优点，首当其冲的自然是出色的画质。尽管我对画质要求不高，且游戏是在PS5这类性能相对有限的平台上运行，然而一进入游戏，广阔而瑰丽的画面依然让我为之震撼。与《战神》系列宏伟的北欧建筑风格不同，《黑神话·悟空》展现的是中国名山大川和黄沙雪原的自然之美。在虚幻5引擎（UE5）的加持下，游戏建模的精度极高，整体呈现出一种仿佛身临其境的奇妙感受。&lt;/p&gt;
+&lt;p&gt;其次是战斗系统。虽然我并非动作游戏的忠实玩家，但也接触过《鬼泣》系列、《猎天使魔女》系列和《怪物猎人》系列等多个经典动作游戏。可以毫不夸张地说，《黑神话·悟空》在动作体验上并不逊色于这些顶尖的动作游戏。悟空的战斗动作虽然不追求华丽，但却极具扎实感，每一棍打在敌人身上的沉重反馈，成为游戏最直接的回报。这种设计朴实无华，却十分耐人寻味。&lt;/p&gt;
+&lt;p&gt;然而，谈到优点的同时，也不能忽视游戏的不足。最明显的问题之一是优化不足，尤其是在加载速度方面。在PS5强大的I/O设计下，按理说《黑神话·悟空》应该能够实现快速加载，尤其是传送到土地庙这样的高频场景。然而，游戏的加载速度却出乎意料地慢，几乎可以说是PS5原生游戏中最慢的一类，完全无法与《蜘蛛侠2》的无缝加载相提并论。&lt;/p&gt;
+&lt;p&gt;此外，游戏还存在一些其他零散的缺陷，例如地图引导设计不够清晰、空气墙问题等。虽然这些问题大多是由于开发经验不足或工期限制所致，但仍值得后续版本中进行改进和优化。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>食南之徒</title>
+      <link>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</link>
+      <pubDate>Fri, 27 Dec 2024 15:02:16 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/read/%E9%A3%9F%E5%8D%97%E4%B9%8B%E5%BE%92/</guid>
+      <description>&lt;p&gt;为了省电订阅费，也为了督促自己多多阅读，前段时间参加了微信读书30天阅读挑战赛，要求是30天内阅读29天且总阅读时长在29小时以上——平均一天一小时。&lt;/p&gt;
+&lt;p&gt;对于喜欢阅读的人而言，29小时并不算困难，唯一需要注意一下的是中间不要有中断，否则29天即达不成了。&lt;/p&gt;
+&lt;p&gt;因此这段时间每天都会打开微信读书读一会，但由于最近事情繁多，比较忙碌，一不留神挑战已近结束——却还差十几个小时没有阅读，没办法，为了我的五块钱不打水漂，只能在剩下的五天内加班阅读。&lt;/p&gt;
+&lt;p&gt;许是阅读量日渐增多导致品味上涨的缘故，前期疯狂沉迷的网络小说现在读来总觉味同嚼蜡。当然，作为网文进化论的拥趸我并不认为网文就是粗制滥造，无非是我导入微信读书的都是古早时期的网文，技巧和经验都无法与今日之网文相比就是（例如宿命之环和玄鉴仙族）。&lt;/p&gt;
+&lt;p&gt;言归正传，因此找来找去找到了马亲王的这本食南之徒（题外话，到目前为止我还是不知道马亲王为什么叫马亲王，有机会定要查一查）。读完一章之后心生欢喜，在有趣的文笔去细读历史中的故事真是莫大的享受。&lt;/p&gt;
+&lt;p&gt;小说的主人公唐蒙是一个视吃为信仰的汉朝小吏，虽无什么上进心天赋才情却极佳，被强制征入大汉使者队伍后不得已卷进了一场阴谋中……&lt;/p&gt;
+&lt;p&gt;涉及剧透就不再继续介绍小说内容，读者自去搜索即可。我想表达的是为什么这种历史小说总是充满着别样的魅力，也许是因为你知道这是一个尽管被小说家修饰过但历史上的确发生了的事情，读之有穿越时空的感受；也许是因为古代的一人一物，风俗人情总是令人好奇，君不见现代古风和其流行；也许是作为现代人好奇古人的生活状态……&lt;/p&gt;
+&lt;p&gt;可能很多，也许兼而有之，但不管怎样，能安安心心地读到这么好的书，真令人感觉世间美好，万物可爱。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

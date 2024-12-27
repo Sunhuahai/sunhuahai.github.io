@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>科技 on Huahai&#39;s Blog</title>
+    <link>https://sunhuahai.github.io/posts/tech/</link>
+    <description>Recent content in 科技 on Huahai&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 27 Dec 2024 16:54:25 +0800</lastBuildDate>
+    <atom:link href="https://sunhuahai.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>https://sunhuahai.github.io/posts/tech/vim/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:25 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/tech/vim/</guid>
+      <description>&lt;h3 id=&#34;vim编辑器使用总结&#34;&gt;Vim编辑器使用总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;进入Vim&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vi &amp;lt;文件名&amp;gt;&lt;/code&gt;：打开或创建文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;两种模式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;编辑模式&lt;/strong&gt;：按&lt;code&gt;i&lt;/code&gt;进入，&lt;code&gt;Esc&lt;/code&gt;退出&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命令模式&lt;/strong&gt;：用于执行保存、搜索等命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;基本操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:w&lt;/code&gt;：保存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q&lt;/code&gt;：退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:wq&lt;/code&gt;：保存并退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:set nu&lt;/code&gt;：显示行号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳到文件开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shift + g&lt;/code&gt;：跳到文件结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令模式下常用操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/word&lt;/code&gt;：搜索文本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:n1,n2s/word1/word2/g&lt;/code&gt;：在第n1到n2行替换word1为word2&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;：删除字符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yy&lt;/code&gt;：复制行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;p&lt;/code&gt;：粘贴&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dd&lt;/code&gt;：删除行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;编辑脚本&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chmod +x &amp;lt;脚本&amp;gt;&lt;/code&gt;：赋予可执行权限&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&amp;lt;脚本名&amp;gt;&lt;/code&gt;：执行脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://sunhuahai.github.io/posts/tech/linux/</link>
+      <pubDate>Fri, 27 Dec 2024 16:54:21 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/posts/tech/linux/</guid>
+      <description>&lt;h3 id=&#34;linux命令总结&#34;&gt;Linux命令总结&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命令格式&lt;/strong&gt;：&lt;br&gt;
+&lt;code&gt;命令 + &amp;lt;选项&amp;gt; + 目标文件或目录&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt;：根目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./&lt;/code&gt;：当前目录 (执行命令如&lt;code&gt;./a.out&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~/&lt;/code&gt;：用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目录操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;：列出目录下所有文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls -al&lt;/code&gt;：显示详细信息和隐藏文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;目录&amp;gt;&lt;/code&gt;：进入指定目录
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt;：返回上级目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~&lt;/code&gt;：返回用户目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt;：显示当前目录路径&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;目录名&amp;gt;&lt;/code&gt;：创建子目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmdir &amp;lt;目录名&amp;gt;&lt;/code&gt;：删除子目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;文件操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;touch &amp;lt;文件名&amp;gt;&lt;/code&gt;：创建文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp &amp;lt;源文件&amp;gt; &amp;lt;目标文件&amp;gt;&lt;/code&gt;：复制文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv &amp;lt;源文件&amp;gt; &amp;lt;目标文件&amp;gt;&lt;/code&gt;：移动文件或重命名&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm &amp;lt;文件名&amp;gt;&lt;/code&gt;：删除文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rm -rf &amp;lt;目录&amp;gt;&lt;/code&gt;：强制递归删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;文件显示&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cat &amp;lt;文件名&amp;gt;&lt;/code&gt;：显示文件内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;more &amp;lt;文件名&amp;gt;&lt;/code&gt;：分页显示文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;head/tail -n &amp;lt;行数&amp;gt; &amp;lt;文件名&amp;gt;&lt;/code&gt;：显示文件头部/尾部若干行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;其他命令&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ln -s &amp;lt;源文件&amp;gt; &amp;lt;链接名&amp;gt;&lt;/code&gt;：创建符号链接&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;diff &amp;lt;文件1&amp;gt; &amp;lt;文件2&amp;gt;&lt;/code&gt;：比较文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chmod +x &amp;lt;文件名&amp;gt;&lt;/code&gt;：更改文件权限&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grep &amp;lt;模式&amp;gt; &amp;lt;文件&amp;gt;&lt;/code&gt;：文本搜索&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find &amp;lt;路径&amp;gt; -name &amp;lt;文件名&amp;gt;&lt;/code&gt;：查找文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;压缩与解压&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tar cvf &amp;lt;包名&amp;gt;.tar &amp;lt;目录&amp;gt;&lt;/code&gt;：打包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tar xvf &amp;lt;包名&amp;gt;.tar&lt;/code&gt;：解包&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gzip &amp;lt;文件&amp;gt;&lt;/code&gt;：压缩&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gunzip &amp;lt;文件.gz&amp;gt;&lt;/code&gt;：解压&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;管道与重定向&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
