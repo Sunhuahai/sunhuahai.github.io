@@ -5,11 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>硬汉 | Huahai&#39;s Blog</title>
+<title>NAS获取域名和SSL证书 | Huahai&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。">
+<meta name="description" content="缘起
+之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。">
 <meta name="author" content="Huahai">
-<link rel="canonical" href="https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/">
+<link rel="canonical" href="https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://sunhuahai.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sunhuahai.github.io/favicon-16x16.png">
@@ -18,7 +19,7 @@
 <link rel="mask-icon" href="https://sunhuahai.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/">
+<link rel="alternate" hreflang="zh" href="https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,18 +56,19 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/">
+</noscript><meta property="og:url" content="https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/">
   <meta property="og:site_name" content="Huahai&#39;s Blog">
-  <meta property="og:title" content="硬汉">
-  <meta property="og:description" content="前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。">
+  <meta property="og:title" content="NAS获取域名和SSL证书">
+  <meta property="og:description" content="缘起 之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-03-05T13:20:14+08:00">
-    <meta property="article:modified_time" content="2025-03-05T13:20:14+08:00">
+    <meta property="article:published_time" content="2025-03-12T11:49:22+08:00">
+    <meta property="article:modified_time" content="2025-03-12T11:49:22+08:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="硬汉">
-<meta name="twitter:description" content="前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。">
+<meta name="twitter:title" content="NAS获取域名和SSL证书">
+<meta name="twitter:description" content="缘起
+之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。">
 
 
 <script type="application/ld+json">
@@ -83,14 +85,14 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "人生",
-      "item": "https://sunhuahai.github.io/zh/posts/life/"
+      "name": "科技",
+      "item": "https://sunhuahai.github.io/zh/posts/tech/"
     }, 
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "硬汉",
-      "item": "https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/"
+      "name": "NAS获取域名和SSL证书",
+      "item": "https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/"
     }
   ]
 }
@@ -99,24 +101,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "硬汉",
-  "name": "硬汉",
-  "description": "前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。\n",
+  "headline": "NAS获取域名和SSL证书",
+  "name": "NAS获取域名和SSL证书",
+  "description": "缘起 之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。\n",
   "keywords": [
     
   ],
-  "articleBody": "前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。\n天下事喂”恒“之一字难，单词背了两天就不想背了，昨天信誓旦旦的说要每天跑步减掉肚子，跑了两天就因为刮风下雨，身体不舒服，好像感冒了等等理由赖掉。这种经历想必对每个人都并不陌生。就我自己而言，找了一个笔记本打算用这个笔记本来规划自己的生活，结果生活没规划起来，笔记本用了几天就放在一边了。\n这种情况归根结底就还是没有以硬汉的标准来要求自己，做事总是瞻前顾后犹犹豫豫，遇到挫折立马开始怀疑自己是不是选错了方向。逻辑上讲，这样的思维方式几乎一定会半途而废—你总是会遇到各种不按照理想情况发展的现象。那自然也就无法做成任何需要长期努力的事情了。\n没有参加素问的打卡，但从多邻国的打卡开始，要保持恒心和努力的态度，加油～\n",
-  "wordCount" : "411",
+  "articleBody": "缘起 之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。\n恰好自己有 NAS，也恰好群晖提供 webdav 功能，就想试一下能不能用 NAS 作为我的私人备份服务器。事实证明是可以的，电脑端的 zotero 和 obsidian 都可以很好的同步，可当我尝试同步手机端和平板端的 zotero 时就出现了一个问题，zotero 因为系统限制只允许局域网的 http 和 互联网的 https 协议，但当时我的 NAS 并不支持 https 协议。\n在网上看到教程可以通过给 NAS 购买域名然后开启免费的 SSL 证书之后，就开始了我的折腾之旅。\n折腾之旅 申请域名 申请域名的方法并不复杂，阿里云就提供购买服务，链接如下：\nhttps://dc.console.aliyun.com/\n点击购买域名即可，不想等的话可以像我一样选择一口价方式购买域名，很多便宜的域名几块钱就可以买到。注意购买之前需要填写信息模版并审核通过，一般也很快就能完成。\n申请 SSL 证书 有了域名之后就到了我们最关键的部分，申请 SSL 证书了，在域名控制台中点击域名列表，选择购买的域名点击管理进入二级页面。\n在基本信息部分选择开启 SSL 证书，然后选择你需要的 SSL 证书即可，对大部分人来说选择阿里鱼提供的免费 SSL 证书就行，注意有效期为三个月，到期自动续费即可。\n结语 不得不说，折腾还是一件很有意思的事情，通过自己的努力让 NAS 不断的发挥出新的功能也十分令人喜悦。\n生命不息，折腾不止！\n",
+  "wordCount" : "566",
   "inLanguage": "zh",
-  "datePublished": "2025-03-05T13:20:14+08:00",
-  "dateModified": "2025-03-05T13:20:14+08:00",
+  "datePublished": "2025-03-12T11:49:22+08:00",
+  "dateModified": "2025-03-12T11:49:22+08:00",
   "author":{
     "@type": "Person",
     "name": "Huahai"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/"
+    "@id": "https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/"
   },
   "publisher": {
     "@type": "Organization",
@@ -199,17 +201,51 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      硬汉
+      NAS获取域名和SSL证书
     </h1>
-    <div class="post-meta"><span title='2025-03-05 13:20:14 +0800 CST'>2025-03-05</span>&nbsp;·&nbsp;Huahai
+    <div class="post-meta"><span title='2025-03-12 11:49:22 +0800 CST'>2025-03-12</span>&nbsp;·&nbsp;Huahai
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
 
-  <div class="post-content"><p>前几天看到d9qag的素问应用开启了打卡活动，并用打卡时间的标准差来作为显示指标。不得不说这真的是一个有洞见的设计：一个人打卡时间的稳定性可以反应他对自己生活的掌控程度，更重要的是，他能反映出一个人对自己的掌控程度。</p>
-<p>天下事喂”恒“之一字难，单词背了两天就不想背了，昨天信誓旦旦的说要每天跑步减掉肚子，跑了两天就因为刮风下雨，身体不舒服，好像感冒了等等理由赖掉。这种经历想必对每个人都并不陌生。就我自己而言，找了一个笔记本打算用这个笔记本来规划自己的生活，结果生活没规划起来，笔记本用了几天就放在一边了。</p>
-<p>这种情况归根结底就还是没有以硬汉的标准来要求自己，做事总是瞻前顾后犹犹豫豫，遇到挫折立马开始怀疑自己是不是选错了方向。逻辑上讲，这样的思维方式几乎一定会半途而废—你总是会遇到各种不按照理想情况发展的现象。那自然也就无法做成任何需要长期努力的事情了。</p>
-<p>没有参加素问的打卡，但从多邻国的打卡开始，要保持恒心和努力的态度，加油～</p>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e7%bc%98%e8%b5%b7" aria-label="缘起">缘起</a></li>
+                <li>
+                    <a href="#%e6%8a%98%e8%85%be%e4%b9%8b%e6%97%85" aria-label="折腾之旅">折腾之旅</a><ul>
+                        
+                <li>
+                    <a href="#%e7%94%b3%e8%af%b7%e5%9f%9f%e5%90%8d" aria-label="申请域名">申请域名</a></li>
+                <li>
+                    <a href="#%e7%94%b3%e8%af%b7-ssl-%e8%af%81%e4%b9%a6" aria-label="申请 SSL 证书">申请 SSL 证书</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%bb%93%e8%af%ad" aria-label="结语">结语</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="缘起">缘起<a hidden class="anchor" aria-hidden="true" href="#缘起">#</a></h2>
+<p>之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。</p>
+<p>恰好自己有 NAS，也恰好群晖提供 webdav 功能，就想试一下能不能用 NAS 作为我的私人备份服务器。事实证明是可以的，电脑端的 zotero 和 obsidian 都可以很好的同步，可当我尝试同步手机端和平板端的 zotero 时就出现了一个问题，zotero 因为系统限制只允许局域网的 http 和 互联网的 https 协议，但当时我的 NAS 并不支持 https 协议。</p>
+<p>在网上看到教程可以通过给 NAS 购买域名然后开启免费的 SSL 证书之后，就开始了我的折腾之旅。</p>
+<h2 id="折腾之旅">折腾之旅<a hidden class="anchor" aria-hidden="true" href="#折腾之旅">#</a></h2>
+<h3 id="申请域名">申请域名<a hidden class="anchor" aria-hidden="true" href="#申请域名">#</a></h3>
+<p>申请域名的方法并不复杂，阿里云就提供购买服务，链接如下：</p>
+<p><a href="https://dc.console.aliyun.com/">https://dc.console.aliyun.com/</a></p>
+<p>点击购买域名即可，不想等的话可以像我一样选择一口价方式购买域名，很多便宜的域名几块钱就可以买到。注意购买之前需要填写信息模版并审核通过，一般也很快就能完成。</p>
+<h3 id="申请-ssl-证书">申请 SSL 证书<a hidden class="anchor" aria-hidden="true" href="#申请-ssl-证书">#</a></h3>
+<p>有了域名之后就到了我们最关键的部分，申请 SSL 证书了，在域名控制台中点击域名列表，选择购买的域名点击管理进入二级页面。</p>
+<p>在基本信息部分选择开启 SSL 证书，然后选择你需要的 SSL 证书即可，对大部分人来说选择阿里鱼提供的免费 SSL 证书就行，注意有效期为三个月，到期自动续费即可。</p>
+<h2 id="结语">结语<a hidden class="anchor" aria-hidden="true" href="#结语">#</a></h2>
+<p>不得不说，折腾还是一件很有意思的事情，通过自己的努力让 NAS 不断的发挥出新的功能也十分令人喜悦。</p>
+<p>生命不息，折腾不止！</p>
 
 
   </div>
@@ -218,15 +254,10 @@
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/">
-    <span class="title">« 上一页</span>
-    <br>
-    <span>NAS获取域名和SSL证书</span>
-  </a>
-  <a class="next" href="https://sunhuahai.github.io/zh/posts/life/%E5%B0%B1%E6%98%AF%E8%A6%81%E5%86%99/">
+  <a class="next" href="https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/">
     <span class="title">下一页 »</span>
     <br>
-    <span>就是要写</span>
+    <span>硬汉</span>
   </a>
 </nav>
 

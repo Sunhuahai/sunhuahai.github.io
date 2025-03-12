@@ -6,8 +6,16 @@
     <description>Recent content on Huahai&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 05 Mar 2025 13:20:14 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 11:49:22 +0800</lastBuildDate>
     <atom:link href="https://sunhuahai.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAS获取域名和SSL证书</title>
+      <link>https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/</link>
+      <pubDate>Wed, 12 Mar 2025 11:49:22 +0800</pubDate>
+      <guid>https://sunhuahai.github.io/zh/posts/tech/nas%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E5%92%8Cssl%E8%AF%81%E4%B9%A6/</guid>
+      <description>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
+&lt;p&gt;之前一直使用坚果云做我的 zotero webdav同步服务器，最近看到 obsidian 和 cherry studio 也能远程同步后就把这几个也加了进来，但这样一来坚果云非会员每月1GB的流量限额就显得捉襟见肘了。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>硬汉</title>
       <link>https://sunhuahai.github.io/zh/posts/life/%E7%A1%AC%E6%B1%89/</link>
